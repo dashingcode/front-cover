@@ -1,0 +1,30 @@
+<div class="content">
+    {% if site.front_img %}
+    <img src="{{ site.front_img_path }}" id="fullscreen">
+    {% endif %}
+
+    {% if site.avatar %}
+        <img src="{{ site.avatar_img_path }}" id="avatar">
+    {% endif %}
+
+    <h1>{{ site.name }}</h1>
+    <h3>{{ site.description }}</h3>
+
+        <ul>
+            {% if site.github_username %}
+            <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
+            {% endif %}
+            {% if site.twitter_username %}
+            <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="description">Twitter</span></a></li>
+            {% endif %}
+            {% if site.blog_url %}
+            <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+            {% endif %}
+            {% if site.medium_username %}
+            <li><a class="fa fa-2x fa-medium" href="https://medium.com/@{{ site.medium_username }}"><span class="description">Medium</span></a></li>
+            {% endif %}
+            {% if site.email %}
+            <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+            {% endif %}
+        </ul>
+</div>
