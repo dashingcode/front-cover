@@ -1,9 +1,9 @@
 # front cover jekyll theme
 
 ## Why choose this jekyll theme for your front page?
-    - You don't have to modify any HTML, everything can be modified in config.yml.
-    - Very lightweight. No Javascript, No Bootstrap etc..
-    - MIT licensed.
+* You don't have to modify any HTML, everything can be modified in config.yml.
+* Very lightweight. No Javascript, No Bootstrap etc..
+* MIT licensed.
 
 
 ## See it in action
