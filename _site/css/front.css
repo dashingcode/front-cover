@@ -79,7 +79,7 @@ ul {
     text-align: center;
 }
 li {
-    border-radius: 100%;
+    border-radius: 0%;
     border: none;
     color: white;
     margin: 8px;
@@ -89,6 +89,10 @@ li {
     text-align: center;
     height: auto;
     width: auto;
+}
+li:hover {
+    background-color: none;
+    transition: none;
 }
 a {
     text-align: justify;
@@ -100,13 +104,12 @@ a {
     width: 70%;
 }
 a:hover {
-    color: white;
-    text-decoration: none;
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
-    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
 }
 .description {
     display: inline-block;
