@@ -53,14 +53,10 @@ li {
     margin: 8px;
     display: inline-block;
     list-style: none;
+    width: 65px;
+    height: 65px;
 }
-a {
-    border-radius: 100%;
-    color: white;
-    padding: 15px;
-    text-decoration: none;
-}
-a:hover {
+li:hover {
     color: white;
     text-decoration: none;
     -webkit-transition: 500ms;
@@ -68,6 +64,11 @@ a:hover {
     transition: 500ms;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
+}
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
 }
 .description {
     display: none;
@@ -86,6 +87,8 @@ li {
     list-style: none;
     margin: 10px 35px;
     text-align: center;
+    height: auto;
+    width: auto;
 }
 a {
     text-align: justify;
