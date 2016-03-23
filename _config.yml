@@ -25,7 +25,7 @@ tumblr_username: your_tumblr_username_goes_here
 weibo_username: your_weibo_username_goes_here
 blog_url: "/blog"
 email: your-email@example.domain
-public_key_url: "https://raw.pastebin.com/LINK-TO-PRIVATE-KEY"
+public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
 
 
 avatar: yes
