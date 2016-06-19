@@ -7,6 +7,7 @@ url: ""
 # Delete the lines you don't need
 # about 5 elements are recomended
 github_username:  dashingcode
+gitlab_username:  your_gitlab_username_goes_here
 hacker-news_username:  your_hackernews_username_goes_here
 codepen_username: your_codepen_username_goes_here
 facebook_username: your_facebook_username_goes_here
