@@ -35,6 +35,10 @@ permalink: /
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
+                    {% if site.hacker-news_username %}
+                    <li><a class="fa fa-2x fa-hacker-news" href="https://news.ycombinator.com/user?id={{ site.hacker-news_username }}"><span class="description">Hacker News</span></a></li>
+                    {% endif %}
+
                     {% if site.codepen_username %}
                     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
                     {% endif %}
