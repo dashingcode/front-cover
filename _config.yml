@@ -1,7 +1,7 @@
 # Site settings
 name: John Smith
 description: "Nifty little description"
-url: ""
+url: "/"
 
 
 # Delete the lines you don't need
